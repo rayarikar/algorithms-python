@@ -31,4 +31,18 @@ def test_one_dimensional_peak():
     one_dimensional_peak(input2)
 
 
+# Given a 2D array where each column has a peak, find a global maximum in the 2D array
+# Assumptions:    - Each column will always have a peak
+#                 - The elements in each column will always be in increasing - decreasing - increasing order or vice
+#                   versa
+#                 - The elements in each column will never be all equal in value (i.e. a peak per column
+#                   will always exist)
+#                 - A global maximum is defined as an element which is greater than its
+#                   immediate top, bottom, left and right element
+#                 - If there are more than 1 global maximums, return any 1
+
+def two_dimensional_peak_finder(input):
+    print "Solution goes here"
+
+
 test_one_dimensional_peak()
